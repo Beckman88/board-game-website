@@ -67,7 +67,6 @@ body {
   min-height: 80vh;
   margin: 0 auto;
   align-items: center;
-  
 }
 
 .introduction {
@@ -109,15 +108,14 @@ body {
   color: maroon;
 }
 .ordlista :first-child {
-  color:maroon
+  color: maroon;
 }
 .ordlista :nth-child(2) {
-  color:rgb(17, 0, 255)
+  color: rgb(17, 0, 255);
 }
 
-
 .ordlista :nth-child(4) {
-  color:rgb(24, 172, 43)
+  color: rgb(24, 172, 43);
 }
 
 .ord {
