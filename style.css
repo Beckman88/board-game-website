@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    display:flex;
+    margin: auto;
+    height: 10vh;
+    align-items: center;
+    background:rgba(0, 0, 0, 0.651) ;
+    border-bottom: black solid 2px;
+}
+
+.logo-container, .nav-links {
+    display:flex;
+    
+}
+
+.logo-container {
+    margin-top: 8em;
+}
+.logo-container img{
+   border-radius: 50%;
+   border:black solid 2px; 
+   z-index: 2;
+
+}
+
+nav {
+   
+    flex:1;
+}
+
+.nav-links{
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-link {
+    font-size: 18px;
+    color: white;
+    text-decoration:none;
+
+}
+
+
+body {
+    background: url(images/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+  }
+.presentation {
+    display: flex;
+    width:70%;
+    margin:auto;
+    min-height: 80vh;
+    align-items:center;
+    
+
+
+}
+
+.introduction {
+    
+    background:rgba(255, 255, 255, 0.336);
+    margin-top: 5em;
+    padding-top:3em;
+    
+
+}
+
+
+.intro-text h1 {
+    font-size:55px ;
+    font-weight: 500; 
+    color: black;
+    text-shadow: black 0px 0px 30px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+
+
+}
+
+.introduction p{
+    margin-top: 5px;
+    font-size: 22px;
+    color: black;
+    text-shadow: black 0px 0px 30px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 30px 50px 0px 50px;
+
+}
+
+
+.grid-container {
+
+    display:grid;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    font-family: poppins, sans-serif;
+    font-size: 22px;
+    background-color:rgba(0, 0, 0, 0.616);
+    
+    
+    
+    
+
+}
+.grid-item1{
+    grid-column: 1 / 4;
+    grid-row: 1;
+    color: yellow;
+    text-shadow: yellow 0px 0px 50px;
+    font-size: 32px;
+    width: 6em;
+    
+    text-align: center;
+    margin-left: 5em;
+    border-radius: 30%;
+    
+}
+
+.grid-item2{
+    grid-column: 2 / 4;
+    grid-row: 3;
+    color: red;
+    width: 7em;
+    font-size: 32px;
+    text-align: center;
+    text-shadow: red 0px 0px 50px;
+}
+.grid-item3{
+    grid-column: 3 / 4;
+    grid-row: 2;
+    color: rgb(93, 50, 250);
+    width: 7em;
+    text-align: center;
+    margin-left:2em;
+    font-size: 28px;
+    text-shadow: blue 0px 0px 20px;
+    
+}
+
+.grid-item4{
+    grid-column: 4 / 4;
+    grid-row: 1;
+    color: #05b405;
+    width: 7em;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: #05b405 0px 0px 20px;
+}
