@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/links/nyheter.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+    <title>Brädspels-Mos</title>
+</head>
+<body>
+<header>
+<div class ="logo-container">
+    <img src="/images/storlogga.png" alt="logo" />
+</div>
+
+
+<nav>
+    <ul class="nav-links">
+        <li ><a class="nav-link" href="/index.html">Home</a></li>
+        <li ><a class="nav-link" href="/links/nyheter.html">Instagram</a></li>
+        <li ><a class="nav-link" href="#">Kontakt</a></li>
+    </ul>
+    
+</nav>
+
+</header>
+<div class="instagramcontainer">
+<h1>Här uppdateras vårat nyhetsflöde</h1>
+<p>Har du inte följt oss än? Klicka på en bild för att komma till vår instagram!</p>
+</div>
+<div class="instabackground">
+<div id="instafeed-container" tooltip="Klicka för att komma till vår Instagram!"></div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
+<script type="text/javascript">
+var userFeed = new Instafeed({
+    get: 'user',
+    target: "instafeed-container",
+    resolution: 'low_resolution',
+    accessToken: 'IGQVJXemJDbDQzOWd5dmE0S1R1YjQ0RnRoVzNhZAWZAtZA3ZAGNG5qN0pZAcUtfVEtzbGN0RkN4dU9XZAjJsT01xNEFPY2lQTjBYVl9fVzNfdVlvMVFYaDdveTF5MklUTWFfN1lSUC1paWhPa09RQ2ZApcnJ3cwZDZD'
+});
+userFeed.run();</script>
+
+</body>
+</html>
