@@ -60,7 +60,7 @@ nav {
 body {
   background: url(images/background1.jpg) no-repeat center center fixed;
   background-size: cover;
-  height: 100%;
+  overflow: hidden;
 }
 
 .presentation {
@@ -72,11 +72,11 @@ body {
 }
 
 .introduction {
-  background: #1f0c1dc2;
+  background: #1f0c1d80;
   padding-top: 3em;
   padding-bottom: 5em;
   border-radius: 20px;
-  box-shadow: 10px 7px #0000006c;
+  box-shadow: 10px 7px #000000af;
 }
 
 .intro-text h1 {
