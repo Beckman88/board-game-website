@@ -29,9 +29,14 @@
 <h1>Här uppdateras vårat nyhetsflöde</h1>
 <p>Har du inte följt oss än? Klicka på en bild för att komma till vår instagram!</p>
 </div>
-<div class="instabackground">
-<div id="instafeed-container" tooltip="Klicka för att komma till vår Instagram!"></div>
+
+
+<div id="instafeed-container" tooltip="Klicka för att komma till vår Instagram!">
+    <div class="item1"></div>
+    <div class="item2"></div>
+    <div class="item3"></div>
 </div>
+
 
 
 <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
@@ -39,7 +44,7 @@
 var userFeed = new Instafeed({
     get: 'user',
     target: "instafeed-container",
-    resolution: 'low_resolution',
+    resolution: 'thumbnail',
     accessToken: 'IGQVJXemJDbDQzOWd5dmE0S1R1YjQ0RnRoVzNhZAWZAtZA3ZAGNG5qN0pZAcUtfVEtzbGN0RkN4dU9XZAjJsT01xNEFPY2lQTjBYVl9fVzNfdVlvMVFYaDdveTF5MklUTWFfN1lSUC1paWhPa09RQ2ZApcnJ3cwZDZD'
 });
 userFeed.run();</script>

@@ -9,8 +9,9 @@ header {
   margin: auto;
   height: 6vh;
   align-items: center;
-  background: #0000008f;
+  background: #0000008e;
   border-bottom: black solid 2px;
+  margin-top: 1em;
 }
 
 .logo-container,
@@ -52,14 +53,13 @@ nav {
   color: yellow;
 }
 .nav-links :last-child :hover {
-  color: blue;
+  color: green;
 }
 
 body {
-  background: url(images/background2.jpg) no-repeat center center fixed;
+  background: url(images/background2.png) no-repeat center center fixed;
   background-size: cover;
   height: 100%;
-  overflow: hidden;
 }
 .presentation {
   display: flex;
@@ -70,7 +70,7 @@ body {
 }
 
 .introduction {
-  background: rgba(255, 255, 255, 0.623);
+  background: rgba(255, 255, 255, 0.329);
   margin-top: 5em;
   padding-top: 3em;
   padding-bottom: 5em;
@@ -114,7 +114,7 @@ body {
 }
 
 .ordlista :nth-child(4) {
-  color: rgb(24, 172, 43);
+  color: rgb(5, 119, 20);
 }
 
 .ord {
