@@ -58,7 +58,7 @@ nav {
 }
 
 body {
-  background: url(images/background1.jpg) no-repeat center center fixed;
+  background: url(images/kontakt2.jpg) no-repeat center center fixed;
   background-size: cover;
   overflow: hidden;
 }
@@ -66,17 +66,19 @@ body {
 .presentation {
   display: flex;
   width: 30%;
-  min-height: 90vh;
-  margin-left: 7%;
-  align-items: center;
+  margin-top: 8%;
+  margin-left: 16%;
+  
+  
 }
 
 .introduction {
-  background: #1f0c1d80;
+  background: #1f0c1db0;
   padding-top: 3em;
-  padding-bottom: 5em;
+  padding-bottom: 3em;
   border-radius: 20px;
   box-shadow: 10px 7px #000000af;
+  
 }
 
 .intro-text h1 {
