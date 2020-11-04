@@ -57,7 +57,7 @@ nav {
   color: green;
 }
 body {
-  background: url(/images/background2.jpg) no-repeat center center fixed;
+  background: url(/images/background1.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -85,16 +85,16 @@ body {
 
 #instafeed-container {
   display: grid;
-  max-width: 1000px;
+  max-width: 50%;
   margin: 0 auto;
   grid-template-columns: repeat(auto-fit, minmax(320px, 3fr));
-  column-gap: 10px;
   row-gap: 10px;
   justify-items: center;
 }
-#instafeed-container img {
-  width: 320px;
-  height: 320px;
+#instafeed-container a img {
+  height: 310px;
+   width: 310px;
+   object-fit: cover;
   border: black solid 3px;
   border-radius: 10%;
   box-shadow: 5px 7px #00000067;
